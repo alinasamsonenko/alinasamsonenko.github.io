@@ -1,0 +1,188 @@
+
+
+
+.con-4 {
+
+
+    border: 4px solid black;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    border: none;
+    position: inherit;
+
+}
+
+.con-4 .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+
+#grid > div {
+
+
+    text-align: center;
+}
+
+
+
+
+
+#title {
+
+    background-color: ;
+
+
+}
+
+
+
+
+.con-4 .content {
+    grid-area: 2/2/3/4;
+}
+
+
+.con-4 .content {
+    display: grid;
+    background-color: ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+
+
+}
+
+
+.content #artst {
+    
+    grid-area: 3/1/6/2;
+    background-color: ;
+    position: relative;
+    
+    
+}
+
+
+.content #inst {
+    grid-area: 2/2/5/3;
+    background-color: ;
+    position: relative;
+    
+    
+    
+    
+}
+
+.content #behance {
+    grid-area: 3/3/6/4;
+    background-color: ;
+    position: relative;
+} 
+
+.content #behance img {
+    position: absolute;
+    max-width: 60%;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+     
+}
+
+
+.content #artst img:hover {
+    filter: drop-shadow(0px 0px 17px #6ceeff );
+    
+     
+    
+    
+}
+
+.content #inst img:hover {
+    filter: drop-shadow(0px 0px 17px #6ceeff );
+    
+     
+    
+    
+}
+
+
+.content #behance img:hover {
+    filter: drop-shadow(0px 0px 17px #6ceeff );
+     
+    
+}
+
+
+.content #inst img {
+    position: absolute;
+    max-width: 70%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+
+
+ img.first {
+    opacity: 0;
+    
+}
+
+
+img.first:hover {
+    
+ opacity: 1;   
+transition: all 0.1s ease;
+}
+
+
+
+
+
+.content #artst img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    max-width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+    
+    
+    
+}
+
+.content .text p{
+    list-style: none;
+    font-family: Gilroy Light;
+    font-size: 3vh;
+    color: #6ceeff;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    
+    
+    
+}
+
+.content .text {
+    grid-area: 7/1/8/4;
+    
+    
+}
+
+.colortext {
+    
+    color: #f93e5e;
+}
+

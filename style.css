@@ -1,0 +1,333 @@
+* {
+    
+    box-sizing: border-box;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+ a {
+    
+ text-decoration: none;
+    color: #6ceeff;
+
+}
+
+
+
+a:visited{
+     text-decoration: none;
+    color: ;
+    transition: all 0.4s ease;
+    
+    
+    
+}
+
+.navigation a:hover {
+    
+    text-decoration: underline;
+    color: #f93e5e;
+    transition: all 0.4s ease;
+    
+    
+    
+    
+}
+
+
+.navigation a:active {
+color:#f93e5e;
+text-decoration: underline;
+}
+
+
+
+
+body {
+    margin: 0px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+.sektion {
+
+    border: 4px solid black;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    border: none;
+
+
+
+
+
+}
+
+
+@font-face {
+    font-family: Lorelei Print;
+    src: url(Lorelei_Print.ttf);
+}
+
+h1 {
+    font-family: Lorelei Print;
+    font-size: 16vh;
+    color: #f93e5e;
+    text-shadow: -3px -3px 0px #6ceeff;
+    margin-bottom: 0;
+    margin-top: auto;
+
+
+
+
+}
+
+
+
+
+#artist p {
+
+    font-family: Gilroy Light;
+    src: url(Gilroy-Light.otf);
+    font-size: 6vh;
+    color: #6ceeff;
+    margin-top: auto;
+
+
+
+
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    height: 100vh;
+}
+
+
+#grid > div {
+
+
+    background: ;
+    text-align: center;
+}
+
+
+#header {
+    width: 100%;
+    background-color: none;
+    position: fixed;
+    top: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+
+}
+
+#logo img{
+    background-color: s;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    max-width: auto;
+    max-height: 70%;
+    padding-top: 20px;
+    
+    
+}
+
+
+
+ul {
+    list-style: none;
+    font-family: Gilroy Light;
+    font-size: 24px;
+    color: #6ceeff;
+
+
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    padding-left: 0;
+
+
+}
+
+ul.navigation li {
+    margin-right: 
+
+}
+
+
+
+
+#content {
+    grid-area: 2/1/8/9;
+}
+
+
+
+#content {
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 20% 1fr 1fr 20%;
+
+
+
+}
+
+#name {
+    background-color: ;
+    grid-area: 2/2/3/8;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+
+
+@media (max-width:720px) {
+
+    h1 {
+
+        font-size: 10vh;
+
+    }
+
+
+    #artist p {
+
+        font-size: 5vh;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width:540px) {
+
+    h1 {
+
+        font-size: 8vh;
+
+    }
+
+
+    #artist p {
+
+        font-size: 4vh;
+
+
+
+
+    }
+
+
+}
+
+
+#artist {
+    background-color: ;
+    grid-area: 3/3/3/7;
+    margin-top: 10px;
+
+
+}
+
+#arrow {}
+
+
+
+#arrow {
+    height: auto;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    background-color: a;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+    
+    
+    
+    
+}
+.icon-scroll,
+.icon-scroll:before {
+
+position: absolute;
+margin: 0;
+
+
+}
+
+
+.icon-scroll {
+    width: 40px;
+    height: 70px; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 0 1px #6ceeff;
+    border-radius: 25px;
+}
+
+
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #f93e5e;
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; 
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+0% {
+    opacity: 1;
+    
+}
+    
+100% {
+    
+    opacity: 0;
+    transform:  translateY(46px);
+}
+
+}
+    
+  

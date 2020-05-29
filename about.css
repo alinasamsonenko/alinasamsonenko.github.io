@@ -1,0 +1,146 @@
+
+
+
+.con-3 .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+
+
+
+ul {
+    list-style: none;
+    font-family: Gilroy Light;
+    font-size: 24px;
+    color: #6ceeff;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.content .about {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+
+.about img{
+    position: relative;
+    max-width: 100%;
+    
+    
+    
+}
+
+
+
+
+
+h2 {
+    
+    font-family: Lorelei Print;
+    font-size: 9vh;
+    color: #f93e5e;
+    text-shadow: -3px -3px 0px #6ceeff;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+
+.about #hello {
+    background-color: ;
+    grid-area: 2/1/2/1;
+    margin-left: -100px;
+    z-index: 1;
+    
+    
+}
+
+
+.content .about {
+    height: 360px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: 1/1/2/2;
+
+
+
+
+}
+
+
+.about .me {
+    background-color:
+    position: relative;
+    grid-area: 1/1/7/5;
+}
+
+.con-3 .grid .content {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+
+
+}
+
+
+.content {
+
+    background-color: ;
+    grid-area: 2/2/3/3
+}
+
+
+
+.content {
+    grid-template-rows: 1fr 1fr;
+
+
+
+
+}
+
+.content p {
+    list-style: none;
+    font-family: Gilroy Light;
+    font-size: 25px;
+    color: #6ceeff;
+    text-align: center
+}
+
+
+.colortext {
+    color: #f93e5e;
+
+
+
+}
+
+#text {
+    grid-row-start: 2;
+    margin-bottom: 20px;
+    margin-top: auto;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+
+
+}

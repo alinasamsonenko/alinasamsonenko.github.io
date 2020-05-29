@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    background-image: url(img/background.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.con-2 {
+
+
+    border: 4px solid black;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    border: none;
+    position: inherit;
+
+}
+
+
+.con-2 .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+
+#grid > div {
+
+
+    text-align: center;
+}
+
+
+
+.title {
+    display: flex;
+    font-size:
+    
+
+
+
+
+
+}
+
+
+
+
+@media (max-width:890px) {
+
+    .navigation {
+        flex-direction: column;
+        align-items: flex-end;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.grid .titlework h2 {
+    font-family: Lorelei Print;
+    font-size: 10vh;
+    color: #f93e5e;
+    text-shadow: -3px -3px 0px #6ceeff;
+    margin-bottom: 0;
+    margin-left: 20px
+
+}
+
+.grid .titlework {
+    display: flex;
+    grid-area: 2/1/3/2;
+    padding-left: 20px;
+    
+}
+
+
+
+
+.title h3 {
+    font-family: Lorelei Print;
+    font-size: 5vh;
+    color: #f93e5e;
+
+    margin-bottom: 0;
+    margin-top: 0;
+    position:
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.title {
+
+    background-color: ;
+
+
+}
+
+.con-2 .content {
+    grid-area: 2/2/3/4
+}
+
+
+.con-2 .content {
+    display: grid;
+    background-color: ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+
+
+}
+
+.deer {
+    display: grid;
+    background-color: ;
+    grid-area: 1/1/3/2;
+
+}
+
+.nix {
+    display: grid;
+    background-color: ;
+    grid-area: 2/2/4/3;
+
+
+
+
+}
+
+
+@media (max-width:800px) {
+
+
+
+
+    .con-2 .content {
+        display: grid;
+        background-color: ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+
+    }
+
+    .deer {
+        display: grid;
+        background-color: ;
+        grid-area: 1/1/2/3
+    }
+
+    .nix {
+        display: grid;
+        background-color: ;
+        grid-area: 2/1/3/2 ;
+
+
+
+
+    }
+
+
+
+    .nix .circle {
+
+        background-size: contain;
+
+
+    }
+
+}
+
+
+.content .deer {
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+.content .nix {
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+
+
+}
+
+
+
+.deer .circle {
+
+    position: relative;
+    background-color: ;
+    grid-area: 1/2/4/9;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.circle img.first {
+
+    opacity: 0;
+
+
+
+}
+
+
+.circle img.first:hover {
+
+    opacity: 1;
+    filter: drop-shadow(0px 0px 17px #6ceeff);
+    transition: all 0.01s ease;
+    
+
+
+
+}
+
+
+
+
+
+.deer .circle img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    max-width: auto;
+    max-height: 80%;
+}
+
+
+.nix .circle img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    max-width: auto;
+    max-height: 90%;
+}
+
+
+
+
+
+
+.nix .circle {
+    position: relative;
+    background-color: ;
+    grid-area: 2/2/6/9;
+
+}
+
+
+
+
+
+
+.deer .title {
+    position: relative;
+    background-color: ;
+    grid-area: 3/1/3/4;
+     z-index: 1;
+
+
+}
+
+.nix .title {
+    position: relative;
+    background-color: ;
+    grid-area: 4/6/7/9;
+     z-index: 1;
+
+
+
+}
